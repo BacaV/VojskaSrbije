@@ -1,17 +1,19 @@
 body, html{
     margin: 0;
     padding: 0;
+    font-family: "Cormorant SC";
 
 }
 
 .nav-bar{
-    background-image: white;
+    background-color: white;
     width: 100%;
     display:flex;
     align-items:center;
     justify-content: space-around;
     margin: 0;
     padding: 0;
+    position: absolute;
 }
 
 .logo{
@@ -20,4 +22,19 @@ body, html{
 
 a{
     text-decoration: none;
+}
+
+#home-section{
+    background-color: red;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-title{
+    text-align: center;
+    color: white;
+    width: 400px;
+
 }
