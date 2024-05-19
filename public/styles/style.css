@@ -38,3 +38,49 @@ a{
     width: 400px;
 
 }
+
+#sim-section{
+    background-color: red;
+    min-height: 100vh;
+    padding-top: 130px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.start-btn{
+    background-image: linear-gradient(to right, rgba(0, 0, 255, 0.747), rgb(0, 0, 77, 0.747));
+    color: white;
+    font-size: 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px 15px;
+}
+
+.sim-wrapper{
+    margin-top: 50px;
+    display: flex;
+    width: 90%;
+    justify-content: center;
+}
+
+.sim-list{
+    border: 1px solid white;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.sim-display{
+    border: 1px solid white;
+    width: 70%;
+    min-height: 60vh;
+    margin-left: 20px;
+}
+
+#garnizoni-list{
+    height: 30px;
+    width: 100%;
+    text-align: center;
+}

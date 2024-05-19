@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Vojska srbije</title>
+        <link rel="stylesheet" href="../styles/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    </head>
+<body>
+    <nav class="nav-bar">
+        <div class="nav-logo-wrapper">
+            <img class="logo" src="../images/vojska-srbije.png" alt="">
+        </div>
+        <div class="nav-link-wrapper">
+            <a href="">Одјава</a>
+
+        </div>
+    </nav>
+
+    <section id="sim-section">
+
+        <h1 class="home-title">
+            Започните симулацију    
+        </h1>
+        <button onclick="simStart" class="start-btn"> Покрени </button>
+
+        <div class="sim-wrapper">
+            <div class="sim-list">
+                <select name="garnizoni-list" id="garnizoni-list">
+                    <option value="prva beogradska">Prva beogradska</option>
+                    <option value="Avalski Toranj">Avalski Toranj</option>
+                </select>
+            </div>
+            <div class="sim-display">
+                
+            </div>
+        </div>
+        </section>
+    
+    
+        <script src="app.js"></script>
+</body>
+</html>
