@@ -25,18 +25,74 @@
         <h1 class="home-title">
             Започните симулацију    
         </h1>
-        <button onclick="simStart" class="start-btn"> Покрени </button>
-
+        <div class="btn-wrapper">
+            <button onclick="pregledGarnizona" class="start-btn"> Pregled </button>
+            <button onclick="rasporedjivanjeJedinica" class="start-btn"> Rasporedjivanje </button>
+            <button onclick="karta" class="start-btn"> Karta </button>
+    
+        </div>
+        
         <div class="sim-wrapper">
-            <div class="sim-list">
-                <select name="garnizoni-list" id="garnizoni-list">
-                    <option value="prva beogradska">Prva beogradska</option>
-                    <option value="Avalski Toranj">Avalski Toranj</option>
-                </select>
+
+            <!-- Pregled tab -->
+            <div class="pregled">
+                <div class="sim-list">
+                    <select name="garnizoni-list" id="garnizoni-list">
+                        <option value="prva beogradska">Prva beogradska</option>
+                        <option value="Avalski Toranj">Avalski Toranj</option>
+                    </select>
+                </div>
+                <div class="sim-display">
+                    <div class="form-one">
+                        <form class="form" action="">
+                            <label for="id">ID:</label>
+                            <input type="text" name="id" id="id"><br><br>
+                            <label for="naziv">Naziv:</label>
+                            <input type="text" name="naziv" id="naziv"><br><br>
+                            <label for="adresa">Adresa:</label>
+                            <input type="text" name="adresa" id="adresa"><br><br>
+                        </form>
+                        <button>Izaberite ikonicu</button><br><br>
+
+                        <div class="btn-wrapper2">
+                            <button>Dodaj</button>
+                            <button>Izmeni</button>
+                            <button>Obrisi</button>
+                        </div>
+                    </div>
+                        <hr>
+                    <div class="form-one">
+                        <form class="form" action="">
+                            <label for="naziv">Naziv:</label>
+                            <input type="text" name="naziv" id="naziv"><br><br>
+                            <label for="adresa">Adresa:</label>
+                            <input type="text" name="adresa" id="adresa"><br><br>
+                        </form>
+                        <button>Izaberite ikonicu</button><br><br>
+
+                        <div class="btn-wrapper2">
+                            <button>Dodaj</button>
+                            <button>Izmeni</button>
+                            <button>Obrisi</button>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="sim-display">
-                
+
+            <!-- Rasporedjivanje tab -->
+
+            <div class="rasporedjivanje">
+                <div class="sim-list">
+                    <select name="garnizoni-list" id="garnizoni-list">
+                        <option value="prva beogradska">Prva beogradska</option>
+                        <option value="Avalski Toranj">Avalski Toranj</option>
+                    </select>
+                </div>
+                <div class="sim-display">
+
+                </div>
             </div>
+            
         </div>
         </section>
     
